@@ -1,2 +1,25 @@
-# Thali_Food_Ordering
-Food Ordering Application in React Js
+## Thali building app
+
+You need to build a thali ordering app. The user can customize the content of Thali. We can add or remove following items and change the quality of these items:
+
+for Ex.
+- Chapati
+- Pickle 
+- Curd
+- Sweet
+- Daal
+- Paneer Dish
+
+It is not mandatory to have all items in thali, but atleast two items should be present else you need to populate error message at the time of clicking checkout button. Each item have need to have a unit price.
+
+When the user is done building the thali, they proceed to checkout page by clicking on checkout button, where they can view the items wise price and the total price of the thali. 
+
+While creating the project structure , you need to have following components in your app:
+
+Thali.js - This will contain the UI of the ingradients added to the thali. for example if you have added pickle and curd, you need to diplay the picture of curd and pickle top of your page. if you remove pickle , the pickle image should not be displayed.  
+
+
+Checkout.js - This component will have the checkout summary of your thali and the final price.
+
+You need to store the ingradients and thier quantity using redux store. 
+
